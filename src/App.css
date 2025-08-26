@@ -1,0 +1,45 @@
+.chooser-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+.clock {
+    font-size: 60px;
+    margin-bottom: 80px;
+}
+
+.tiles {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition:
+        transform 0.2s,
+        background 0.2s;
+}
+
+.tile:hover {
+    transform: translateY(-5px);
+    background: #101010;
+}
+
+.icon {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
